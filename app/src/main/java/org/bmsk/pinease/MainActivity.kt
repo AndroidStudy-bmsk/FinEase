@@ -17,10 +17,10 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun openShuffle() {
-        startActivity(Intent(this, PinActivity::class.java))
+        startActivity(PinActivity.pinIntent(this))
     }
 
     fun openVerifyOTP() {
-
+        startActivity(IdentityInputActivity.identityIntent(this))
     }
 }

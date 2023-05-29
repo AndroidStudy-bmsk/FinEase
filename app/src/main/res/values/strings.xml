@@ -4,4 +4,16 @@
     <string name="phone_inv">휴대폰 인증</string>
     <string name="input_complet">입력 완료</string>
     <string name="guide_input_easy_password">간편 비밀번호 6자리를 입력해주세요.</string>
+    <string name="skt">SKT</string>
+    <string name="kt">KT</string>
+    <string name="lg_u_plus">LG U+</string>
+    <string name="cheap_skt">SKT 알뜰폰</string>
+    <string name="cheap_kt">KT 알뜰폰</string>
+    <string name="cheap_lg_u_plus">LG U+ 알뜰폰</string>
+    <string name="telecom">통신사</string>
+    <string name="gender">성별</string>
+    <string name="male">남자</string>
+    <string name="female">여자</string>
+    <string name="hint_name">이름</string>
+    <string name="hint_birth">생년월일</string>
 </resources>

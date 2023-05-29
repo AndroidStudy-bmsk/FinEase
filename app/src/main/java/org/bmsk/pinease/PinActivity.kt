@@ -1,5 +1,7 @@
 package org.bmsk.pinease
 
+import android.content.Context
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
 import androidx.activity.viewModels
@@ -36,5 +38,9 @@ class PinActivity: AppCompatActivity(), ShuffleNumberKeyboard.KeypadListener {
 
     override fun onClickDone() {
         viewModel.done()
+    }
+
+    companion object {
+        fun pinIntent(context: Context) = Intent(context, PinActivity::class.java)
     }
 }
