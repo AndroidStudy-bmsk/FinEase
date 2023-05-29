@@ -1,5 +1,6 @@
 package org.bmsk.pinease
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import org.bmsk.pinease.databinding.ActivityMainBinding
@@ -16,7 +17,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun openShuffle() {
-
+        startActivity(Intent(this, PinActivity::class.java))
     }
 
     fun openVerifyOTP() {
