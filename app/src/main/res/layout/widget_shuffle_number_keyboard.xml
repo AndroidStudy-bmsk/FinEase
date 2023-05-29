@@ -6,7 +6,7 @@
 
         <variable
             name="view"
-            type="org.bmsk.finease.widget.ShuffleNumberKeyboard" />
+            type="org.bmsk.pinease.widget.ShuffleNumberKeyboard" />
 
         <variable
             name="clickListener"

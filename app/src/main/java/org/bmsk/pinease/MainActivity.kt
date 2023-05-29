@@ -1,8 +1,8 @@
-package org.bmsk.finease
+package org.bmsk.pinease
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import org.bmsk.finease.databinding.ActivityMainBinding
+import org.bmsk.pinease.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var binding: ActivityMainBinding

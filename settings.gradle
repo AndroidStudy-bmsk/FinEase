@@ -12,5 +12,5 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "FinEase"
+rootProject.name = "PinEase"
 include ':app'

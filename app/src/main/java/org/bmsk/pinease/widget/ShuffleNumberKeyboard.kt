@@ -1,4 +1,4 @@
-package org.bmsk.finease.widget
+package org.bmsk.pinease.widget
 
 import android.content.Context
 import android.util.AttributeSet
@@ -7,7 +7,7 @@ import android.view.View
 import android.widget.GridLayout
 import android.widget.TextView
 import androidx.core.view.children
-import org.bmsk.finease.databinding.WidgetShuffleNumberKeyboardBinding
+import org.bmsk.pinease.databinding.WidgetShuffleNumberKeyboardBinding
 import kotlin.random.Random
 
 class ShuffleNumberKeyboard @JvmOverloads

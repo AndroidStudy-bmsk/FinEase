@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'org.bmsk.finease'
+    namespace 'org.bmsk.pinease'
     compileSdk 33
 
     defaultConfig {
-        applicationId "org.bmsk.finease"
+        applicationId "org.bmsk.pinease"
         minSdk 28
         targetSdk 33
         versionCode 1
