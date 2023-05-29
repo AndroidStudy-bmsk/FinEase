@@ -3,4 +3,5 @@
     <string name="fin_pad">보안 키패드</string>
     <string name="phone_inv">휴대폰 인증</string>
     <string name="input_complet">입력 완료</string>
+    <string name="guide_input_easy_password">간편 비밀번호 6자리를 입력해주세요.</string>
 </resources>
