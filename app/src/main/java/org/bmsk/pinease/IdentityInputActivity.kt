@@ -119,6 +119,8 @@ class IdentityInputActivity : AppCompatActivity() {
             binding.phoneLayout.error = getString(R.string.guide_invalid_phone_number_format)
             return
         }
+
+        startActivity(VerifyOtpActivity.verifyOtpIntent(this))
     }
 
     private fun validName() = !binding.nameEdit.text.isNullOrBlank()
